@@ -10,5 +10,5 @@ Automatically download [node_exporter](https://github.com/prometheus/node_export
 ## Usage
 
 ```bash
-curl -sSL https://cloudesire.github.io/node-exporter-installer/install.sh | sudo sh
+curl -sSL https://dhomane.github.io/node-exporter-installer/install.sh | sudo sh
 ```
