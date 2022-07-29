@@ -51,7 +51,7 @@ ExecStart=/opt/node_exporter/node_exporter
 WantedBy=multi-user.target
 EOF
 
-    systemctl enable node-exporter
+    systemctl enable --now node-exporter
     systemctl start node-exporter
 elif [ -x "$(command -v chckconfig)" ]; then
     cat << EOF >> /etc/inittab
